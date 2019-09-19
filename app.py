@@ -38,7 +38,7 @@ app.layout = html.Div(children=[
         ],className='three columns'),
         html.Div([
             html.Div(textbody, style={
-                'padding': '12px',
+                'padding': '24px',
                 'font-size': '20px',
                 'height': '120px',
                 'border': 'thin blue solid',
@@ -46,7 +46,7 @@ app.layout = html.Div(children=[
                 'backgroundColor': 'rgb(55, 31, 191)',
                 'textAlign': 'left',
                 }),
-        ],className='six columns'),
+        ],className='three columns'),
     ],className='twelve columns'),
     html.A('Code on Github', href=githublink),
     html.Br(),
