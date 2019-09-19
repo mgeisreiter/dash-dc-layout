@@ -34,6 +34,9 @@ app.layout = html.Div(children=[
             html.Img(src=app.get_asset_url(image2), style={'width': '80%', 'height': 'auto'}),
         ],className='three columns'),
         html.Div([
+            html.Img(src=app.get_asset_url(image3), style={'width': '50%', 'height': 'auto'})
+        ],className='three columns'),
+        html.Div([
             html.Div(textbody, style={
                 'padding': '12px',
                 'font-size': '20px',
