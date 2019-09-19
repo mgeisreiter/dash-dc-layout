@@ -11,7 +11,8 @@ myheading1 = 'DC has some good coffee shops'
 myheading2 = 'Always need caffeine'
 image1 = 'compass.jpeg'
 image2 = 'colombe.jpg'
-textbody = "DC has such great coffee, it makes Starbucks unnecessary"
+image3 = 'dolcezza.jpeg'
+textbody = "DC has good coffee."
 sourceurl = 'https://fitt.co/washington-dc/articles/best-coffee-shop-washington-dc'
 githublink = 'https://github.com/mgeisreiter/dash-dc-layout'
 
@@ -35,12 +36,12 @@ app.layout = html.Div(children=[
         html.Div([
             html.Div(textbody, style={
                 'padding': '12px',
-                'font-size': '22px',
+                'font-size': '20px',
                 'height': '120px',
-                'border': 'thin red solid',
-                'color': 'rgb(255, 255, 255)',
-                'backgroundColor': 'rgb(57, 83, 107)',
-                'textAlign': 'right',
+                'border': 'thin blue solid',
+                'color': 'rgb(133, 231, 255)',
+                'backgroundColor': 'rgb(55, 31, 191)',
+                'textAlign': 'left',
                 }),
         ],className='six columns'),
     ],className='twelve columns'),
