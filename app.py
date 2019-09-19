@@ -9,8 +9,8 @@ import pandas as pd
 tabtitle = 'the district'
 myheading1 = 'Step Back! The doors are about to close!'
 myheading2 = 'Back2Good'
-image1 = 'dc-flag.jpg'
-image2 = 'metro-map.png'
+image1 = 'compass.jpeg'
+image2 = 'colombe.jpg'
 textbody = "Metro's recent on time performance ratings are so good, it's getting harder to find a good reason to take a car!"
 sourceurl = 'https://www.wmata.com/about/back2good/index.cfm'
 githublink = 'https://github.com/austinlasseter/dash-dc-layout'
